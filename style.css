@@ -1,0 +1,28 @@
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px coral;
+}
+
+.note{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkred;
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: yellowgreen;
+    color: darkred;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas{
+    border: goldenrod groove 10px;
+    border-radius: 20px;
+    box-shadow: lawngreen 5px 5px 5px;
+}
