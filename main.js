@@ -18,8 +18,8 @@ function Modelloaded(){
 }
 
 function draw(){
-    background('lightblue');
-    fill('lightgreen');
+    background('black');
+    fill('white');
     textSize(difference);
     text('AI', 50, 400);
     document.getElementById("span_tag").innerHTML = "height and width of square = " + difference + " px";
@@ -36,3 +36,4 @@ function gotPoses(results){
     }
 
     }
+
