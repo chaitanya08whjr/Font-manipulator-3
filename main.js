@@ -21,7 +21,7 @@ function draw(){
     background('lightblue');
     fill('lightgreen');
     textSize(difference);
-    text('Chaitanya', 50, 400);
+    text('AI', 50, 400);
     document.getElementById("span_tag").innerHTML = "height and width of square = " + difference + " px";
 }
 
@@ -34,4 +34,5 @@ function gotPoses(results){
     rightwrist = results[0].pose.rightWrist.x;
     difference = floor(leftwrist-rightwrist);
     }
+
     }
